@@ -1,0 +1,27 @@
+# WordPress config
+wp-config.php
+
+# Logs
+error_log
+*.log
+php_error_log
+
+# Cache
+wp-content/cache/
+wp-content/uploads/cache/
+wp-content/speedycache-config/
+
+# Duplicator
+wp-content/backups-dup-lite/
+
+# Upgrade/temp files
+wp-content/upgrade/
+wp-content/upgrade-temp-backup/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db

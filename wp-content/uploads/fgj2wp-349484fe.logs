@@ -1,0 +1,111 @@
+=== START test_download 2026-03-17 07:22:20 ===
+FILE SYSTEM connection successful
+=== END test_download 2026-03-17 07:22:20 ===
+
+=== START test_database 2026-03-17 07:23:54 ===
+[ERROR] Couldn't connect to the Joomla database. Please check your parameters. And be sure the WordPress server can access the Joomla database.<br />
+SQLSTATE[HY000] [1045] Access denied for user 'phil'@'localhost' (using password: YES)<br />
+Please read the <a href="https://wordpress.org/plugins/fg-joomla-to-wordpress/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2026-03-17 07:23:54 ===
+
+=== START test_database 2026-03-17 07:24:04 ===
+[ERROR] Couldn't connect to the Joomla database. Please check your parameters. And be sure the WordPress server can access the Joomla database.<br />
+SQLSTATE[HY000] [1045] Access denied for user 'phil'@'localhost' (using password: YES)<br />
+Please read the <a href="https://wordpress.org/plugins/fg-joomla-to-wordpress/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2026-03-17 07:24:04 ===
+
+=== START test_database 2026-03-17 07:24:17 ===
+[ERROR] Couldn't connect to the Joomla database. Please check your parameters. And be sure the WordPress server can access the Joomla database.<br />
+SQLSTATE[HY000] [1045] Access denied for user 'phil'@'localhost' (using password: YES)<br />
+Please read the <a href="https://wordpress.org/plugins/fg-joomla-to-wordpress/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2026-03-17 07:24:17 ===
+
+=== START test_database 2026-03-17 07:24:44 ===
+[ERROR] Couldn't connect to the Joomla database. Please check your parameters. And be sure the WordPress server can access the Joomla database.<br />
+SQLSTATE[HY000] [1045] Access denied for user 'phil'@'localhost' (using password: YES)<br />
+Please read the <a href="https://wordpress.org/plugins/fg-joomla-to-wordpress/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2026-03-17 07:24:44 ===
+
+=== START test_database 2026-03-17 07:27:45 ===
+Connected with success to the Joomla database
+Joomla data found:
+33 categories
+51 articles
+
+[WARNING] Your Joomla database contains several users. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/" target="_blank">Premium version</a> to import them.
+=== END test_database 2026-03-17 07:27:46 ===
+
+=== START import 2026-03-17 07:30:07 ===
+Connected with success to the Joomla database
+Joomla data found:
+33 categories
+51 articles
+
+[WARNING] Your Joomla database contains several users. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/" target="_blank">Premium version</a> to import them.
+FILE SYSTEM connection successful
+Importing categories...
+33 categories imported
+Importing posts...
+[ERROR] Can't copy https://kohtao.rocks/images/image/Full Moon Party Koh Phangan.jpg to /home/parawa6/wp.kohtao.rocks/wp-content/uploads/2018/04/Full-Moon-Party-Koh-Phangan.jpg : file_get_contents(/home/parawa6/kohtao.rocks/images/image/Full Moon Party Koh Phangan.jpg): Failed to open stream: No such file or directory
+[ERROR] Can't copy https://kohtao.rocks/images/image/Full Moon Party Koh Phangan.jpg to /home/parawa6/wp.kohtao.rocks/wp-content/uploads/2018/04/Full-Moon-Party-Koh-Phangan.jpg : file_get_contents(/home/parawa6/kohtao.rocks/images/image/Full Moon Party Koh Phangan.jpg): Failed to open stream: No such file or directory
+[ERROR] Can't copy https://kohtao.rocks/images/image/Koh Lipe Thailand.jpg to /home/parawa6/wp.kohtao.rocks/wp-content/uploads/2018/04/Koh-Lipe-Thailand.jpg : file_get_contents(/home/parawa6/kohtao.rocks/images/image/Koh Lipe Thailand.jpg): Failed to open stream: No such file or directory
+[ERROR] Can't copy https://kohtao.rocks/images/banners/12Go.asia.png to /home/parawa6/wp.kohtao.rocks/wp-content/uploads/2018/04/12Go.asia_.png : file_get_contents(/home/parawa6/kohtao.rocks/images/banners/12Go.asia.png): Failed to open stream: No such file or directory
+[ERROR] Can't copy https://kohtao.rocks/images/image/Cool-Sea-Anemones-.png to /home/parawa6/wp.kohtao.rocks/wp-content/uploads/2018/04/Cool-Sea-Anemones-.png : file_get_contents(/home/parawa6/kohtao.rocks/images/image/Cool-Sea-Anemones-.png): Failed to open stream: No such file or directory
+[ERROR] Can't copy https://kohtao.rocks/images/image/Cool-Sea-Anemones-.png to /home/parawa6/wp.kohtao.rocks/wp-content/uploads/2018/04/Cool-Sea-Anemones-.png : file_get_contents(/home/parawa6/kohtao.rocks/images/image/Cool-Sea-Anemones-.png): Failed to open stream: No such file or directory
+[ERROR] Can't copy https://kohtao.rocks/images/restaurants/the-gallery/hero.jpg to /home/parawa6/wp.kohtao.rocks/wp-content/uploads/2025/09/hero.jpg : file_get_contents(/home/parawa6/kohtao.rocks/images/restaurants/the-gallery/hero.jpg): Failed to open stream: No such file or directory
+[ERROR] Can't copy https://kohtao.rocks/images/restaurants/the-gallery/hero.jpg to /home/parawa6/wp.kohtao.rocks/wp-content/uploads/2025/09/hero.jpg : file_get_contents(/home/parawa6/kohtao.rocks/images/restaurants/the-gallery/hero.jpg): Failed to open stream: No such file or directory
+[ERROR] Can't copy https://kohtao.rocks/images/villas/monkey-flower/hero.jpg to /home/parawa6/wp.kohtao.rocks/wp-content/uploads/2025/09/hero.jpg : file_get_contents(/home/parawa6/kohtao.rocks/images/villas/monkey-flower/hero.jpg): Failed to open stream: No such file or directory
+[ERROR] Can't copy https://kohtao.rocks/images/villas/monkey-flower/hero.jpg to /home/parawa6/wp.kohtao.rocks/wp-content/uploads/2025/09/hero.jpg : file_get_contents(/home/parawa6/kohtao.rocks/images/villas/monkey-flower/hero.jpg): Failed to open stream: No such file or directory
+[ERROR] Can't copy https://kohtao.rocks/images/resorts/woodlawn/hero.jpg to /home/parawa6/wp.kohtao.rocks/wp-content/uploads/2025/09/hero.jpg : file_get_contents(/home/parawa6/kohtao.rocks/images/resorts/woodlawn/hero.jpg): Failed to open stream: No such file or directory
+[ERROR] Can't copy https://kohtao.rocks/images/resorts/woodlawn/hero.jpg to /home/parawa6/wp.kohtao.rocks/wp-content/uploads/2025/09/hero.jpg : file_get_contents(/home/parawa6/kohtao.rocks/images/resorts/woodlawn/hero.jpg): Failed to open stream: No such file or directory
+[ERROR] Can't copy https://kohtao.rocks/images/bars/choppers/hero.jpg to /home/parawa6/wp.kohtao.rocks/wp-content/uploads/2025/09/hero.jpg : file_get_contents(/home/parawa6/kohtao.rocks/images/bars/choppers/hero.jpg): Failed to open stream: No such file or directory
+[ERROR] Can't copy https://kohtao.rocks/images/bars/choppers/hero.jpg to /home/parawa6/wp.kohtao.rocks/wp-content/uploads/2025/09/hero.jpg : file_get_contents(/home/parawa6/kohtao.rocks/images/bars/choppers/hero.jpg): Failed to open stream: No such file or directory
+[ERROR] Can't copy https://kohtao.rocks/images/tattoo/zoko/hero.jpg to /home/parawa6/wp.kohtao.rocks/wp-content/uploads/2025/09/hero.jpg : file_get_contents(/home/parawa6/kohtao.rocks/images/tattoo/zoko/hero.jpg): Failed to open stream: No such file or directory
+[ERROR] Can't copy https://kohtao.rocks/images/tattoo/zoko/hero.jpg to /home/parawa6/wp.kohtao.rocks/wp-content/uploads/2025/09/hero.jpg : file_get_contents(/home/parawa6/kohtao.rocks/images/tattoo/zoko/hero.jpg): Failed to open stream: No such file or directory
+[ERROR] Can't copy https://kohtao.rocks/images/hair-beauty/hair-by-nanny/hero.jpg to /home/parawa6/wp.kohtao.rocks/wp-content/uploads/2025/09/hero.jpg : file_get_contents(/home/parawa6/kohtao.rocks/images/hair-beauty/hair-by-nanny/hero.jpg): Failed to open stream: No such file or directory
+[ERROR] Can't copy https://kohtao.rocks/images/hair-beauty/hair-by-nanny/hero.jpg to /home/parawa6/wp.kohtao.rocks/wp-content/uploads/2025/09/hero.jpg : file_get_contents(/home/parawa6/kohtao.rocks/images/hair-beauty/hair-by-nanny/hero.jpg): Failed to open stream: No such file or directory
+51 posts imported
+30 medias imported
+Don't forget to modify internal links.
+IMPORT COMPLETED
+=== END import 2026-03-17 07:30:57 ===
+
+=== START import 2026-03-17 07:31:35 ===
+Connected with success to the Joomla database
+Joomla data found:
+33 categories
+51 articles
+
+[WARNING] Your Joomla database contains several users. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/" target="_blank">Premium version</a> to import them.
+FILE SYSTEM connection successful
+Importing categories...
+0 categories imported
+Importing posts...
+0 posts imported
+0 medias imported
+Don't forget to modify internal links.
+IMPORT COMPLETED
+=== END import 2026-03-17 07:31:38 ===
+
+=== START import 2026-03-17 07:35:54 ===
+Connected with success to the Joomla database
+Joomla data found:
+33 categories
+51 articles
+
+[WARNING] Your Joomla database contains several users. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/" target="_blank">Premium version</a> to import them.
+FILE SYSTEM connection successful
+Importing categories...
+0 categories imported
+Importing posts...
+0 posts imported
+0 medias imported
+Don't forget to modify internal links.
+IMPORT COMPLETED
+=== END import 2026-03-17 07:35:55 ===
+
+=== START modify_links 2026-03-17 07:36:02 ===
+Modifying internal links...
+2 internal links modified
+=== END modify_links 2026-03-17 07:36:03 ===
+

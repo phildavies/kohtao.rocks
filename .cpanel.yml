@@ -2,6 +2,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/parawa6/kohtao.rocks/
-
-    # Sync files to live site
     - /bin/rsync -av --delete --exclude='.git' --exclude='wp-config.php' --exclude='.htaccess' ./ $DEPLOYPATH
+    - /usr/bin/env php ${DEPLOYPATH}tools/deploy_koh_tao_stage2_content.php
+    - /bin/rm -f ${DEPLOYPATH}tools/deploy_koh_tao_stage2_content.php

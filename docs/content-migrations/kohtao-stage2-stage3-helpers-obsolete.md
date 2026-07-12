@@ -13,3 +13,11 @@ They have been superseded by:
 - `wp-content/mu-plugins/ktr-approved-content-migration-20260712.php`
 
 Use the guarded migration above for the approved 12 July 2026 content state. Always run and review its dry-run output before applying it.
+
+## Japanese Gardens follow-up cleanup
+
+`wp-content/mu-plugins/ktr-approved-content-migration-20260712.php` represents the earlier approved content state. It still contains the pre-cleanup Japanese Gardens page/link state and must not be rerun after the Japanese Gardens duplicate-page cleanup without a fresh review.
+
+For the Japanese Gardens duplicate issue, it has been superseded by:
+
+- `wp-content/mu-plugins/ktr-japanese-gardens-duplicate-cleanup-20260712.php`

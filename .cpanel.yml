@@ -2,6 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/parawa6/kohtao.rocks/
-    - /bin/rsync -av --delete --exclude='.git' --exclude='wp-config.php' --exclude='.htaccess' ./ $DEPLOYPATH
-    - /usr/bin/env php ${DEPLOYPATH}deploy_where_to_stay_polish_20260711.php
-    - /bin/rm -f ${DEPLOYPATH}deploy_where_to_stay_polish_20260711.php
+    - /bin/rsync -av --delete --exclude='.git' --exclude='wp-config.php' --exclude='.htaccess' --exclude='deploy_where_to_stay_polish_20260711.php' ./ $DEPLOYPATH

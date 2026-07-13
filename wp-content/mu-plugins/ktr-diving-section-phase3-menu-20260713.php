@@ -415,16 +415,38 @@ add_filter('nav_menu_link_attributes', 'ktr_diving_phase3_menu_group_link_attrib
 function ktr_diving_phase3_menu_group_styles_20260713() {
     ?>
     <style id="ktr-diving-phase3-menu-styles">
-        .pagelayer-wp_menu-ul .ktr-menu-group-label > a {
+        .pagelayer-wp_menu-ul #menu-item-1807 > .sub-menu > .ktr-menu-group-label > a {
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+            margin: 4px 0 2px !important;
+            padding: 8px 12px !important;
             cursor: default;
-            font-weight: 700;
-            opacity: .78;
-            text-transform: uppercase;
-            letter-spacing: 0;
+            background: #102a38 !important;
+            background-color: #102a38 !important;
+            border-top: 1px solid #d4af37;
+            color: #f5f5f5 !important;
             font-size: .86em;
+            font-weight: 700;
+            letter-spacing: 0;
+            line-height: 1.35;
+            opacity: 1;
+            text-align: center;
+            text-decoration: none;
+            text-transform: uppercase;
         }
-        .pagelayer-wp_menu-ul .ktr-menu-group-label > a:hover,
-        .pagelayer-wp_menu-ul .ktr-menu-group-label > a:focus {
+        .pagelayer-wp_menu-ul #menu-item-1807 > .sub-menu > .ktr-menu-group-label:not(:first-child) > a {
+            margin-top: 10px !important;
+        }
+        .pagelayer-wp_menu-ul #menu-item-1807 > .sub-menu > .ktr-menu-group-label > a:hover,
+        .pagelayer-wp_menu-ul #menu-item-1807 > .sub-menu > .ktr-menu-group-label > a:focus,
+        .pagelayer-wp_menu-ul #menu-item-1807 > .sub-menu > .ktr-menu-group-label > a:active {
+            cursor: default;
+            background: #102a38 !important;
+            background-color: #102a38 !important;
+            color: #f5f5f5 !important;
+            outline: 0;
+            box-shadow: none;
             text-decoration: none;
         }
     </style>
